@@ -3,14 +3,12 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "homepage": "https://[your-github-username].github.io/[repo-name]",
+  "homepage": "https://mahmoudhalim.github.io/render-test",
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm start", 
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ."
   },
   "author": "Matti Luukkainen",
   "license": "MIT",
